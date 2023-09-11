@@ -14,14 +14,14 @@ export class StartingInnComponent implements OnInit{
   constructor() {
     this.config = {
       type: Phaser.AUTO,
-      height: 10 * 32,
-      width: 14 * 32,
+      height: 11 * 32,
+      width: 17 * 32,
       scene: [ MainScene ],
       parent: 'gameContainer',
       physics: {
         default: 'arcade',
         arcade: {
-          gravity: { y: 100 }
+          gravity: { y: 0 }
         }
       }
     };
